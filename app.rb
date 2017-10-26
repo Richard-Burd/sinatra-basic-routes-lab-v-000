@@ -13,4 +13,3 @@ class App < Sinatra::Base
     "My favorite song is Deus Ta Malta"
   end
 end
-
