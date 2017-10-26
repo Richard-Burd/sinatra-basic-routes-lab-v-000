@@ -5,24 +5,12 @@ class App < Sinatra::Base
     "My name is Fido"
   end
 
-  get '/hometown' do 
+  get '/hometown' do
     "My hometown is Valletta"
-  end 
+  end
 
-  get '/favorite-song' do 
+  get '/favorite-song' do
     "My favorite song is Deus Ta Malta"
-  end 
+  end
 end
 
-
-
-
-
-
-#class App < Sinatra::Base
-
-  # Define your GET '/' route below and respond with "Hello, World!"
-#  get '/' do
-#    "Hello, World!"
-#  end
-#end
